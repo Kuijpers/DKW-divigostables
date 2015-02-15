@@ -1,0 +1,296 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	text-align			:		center;
+	height				:		100%;
+	margin				:		0px;
+	padding				:		0px;
+	background-image	:		url(../images/body_bg.png);
+	background-repeat	:		repeat;
+}
+
+div.container{
+	width				:		1000px;
+	margin				:		0px auto;
+	margin-top			:		20px;
+	padding				:		0px;
+	border				:		1px solid #ffcc66;
+	background			:		#ffcc66;
+	background-image	:		url(../images/container_bg.png);
+	background-repeat	:		repeat-x;
+	float				:		none;
+	overflow			:		hidden;
+}
+
+div.top{
+	width				:		996px;
+	height				:		224px;
+	background-image	:		url(../images/header.png);
+	background-repeat	:		no-repeat;
+	border				:		2px solid #663300;
+	margin				:		0 0 0 0;
+	float				:		left;
+}
+
+div.tries{
+	width				:		120px;
+	height				:		178px;
+	float				:		left;
+	background-image	:		url(../images/tries.png);
+	background-repeat	:		no-repeat;
+	border				:		2px solid #ffcc66;
+	margin-top			:		20px;
+	margin-left			:		20px;
+	
+}
+
+div.headermenu{
+	width				:		140px;	
+	height				:		178px;
+	float				:		left;
+	*margin-top			:		15px;
+	
+}
+
+div.logo{
+	width				:		132px;
+	height				:		153px;
+	background-image	:		url(../images/logo.png);
+	background-repeat	:		no-repeat;
+	float				:		right;
+	margin-top			:		30px;
+	margin-right		:		80px;
+}
+
+div.topmenu{
+	width			:		100%;
+	height			:		40px;
+	margin			:		0 0 0 0;
+	float			:		left;
+}
+
+div.sidemenu{
+	width			:		350px;
+	height			:		auto;
+	margin			:		0 0 0 0;
+	margin-top		:		20px;
+	float			:		left;
+}
+
+
+div.center_body{
+	width			:		600px;
+	height			:		auto;
+	min-height		:		250px;
+	margin			:		0 0 0 0;
+	margin-left		:		25px;
+	margin-right	:		25px;
+	margin-top		:		20px;
+	float			:		left;
+}
+
+div.footer{
+	width				:		575px;
+	height				:		200px;
+	margin				:		0 0 0 0;
+	margin-left			:		35px;
+	float				:		left;
+	background-image	:		url(../images/kringel.png);
+	background-repeat	:		no-repeat;
+}
+div.footer_right{
+	width				:		350px;
+	height				:		200px;
+	float				:		left;
+	background-image	:		url(../images/donkey.png);
+	background-repeat	:		no-repeat;
+	margin-bottom		:		35px;
+}
+
+div.copyright{
+	width				:		100%;
+	height				:		50px;
+	float				:		left;
+	color				:		#ffcc66;
+}
+
+
+#headermenu li{
+	width				:		140px;
+	height				:		25px;
+	margin-bottom		:		3px;
+	*margin-bottom		:		0px;	/* IE hack */
+	text-align			:		left;
+	text-decoration		:		none;
+	padding-left		:		15px;
+	list-style			:		none;
+	font-weight			:		bold;
+	color				:		#ffcc66;
+	line-height			:		25px;
+	display				:		block;
+}
+
+#headermenu li{
+	background-image	:		url(../images/menu_bg.png);
+	background-repeat	:		no-repeat;
+}
+
+#headermenu li:hover{
+	background-image	:		url(../images/menu_bg_hover.png);
+	background-repeat	:		no-repeat;
+}
+
+#headermenu	a{
+	color				:		#ffcc66;	
+	text-decoration		:		none;
+	display				:		block;
+}
+
+#textfield div.title{
+	width				:		593px;
+	height				:		35px;
+	float				:		left;
+	margin-left			:		4px;
+	margin-top			:		15px;
+	background-image	:		url(../images/titel_textfield.png);
+	background-repeat	:		no-repeat;
+	text-align			:		left;
+	line-height			:		35px;
+	padding-left		:		20px;
+	font-weight			:		bold;
+	color				:		#ffcc66;
+	font-size			:		20px;
+}
+
+#textfield div.content{
+	width				:		573px;
+	height				:		auto;
+	float				:		left;
+	margin-left			:		14px;
+	text-align			:		justify;
+	margin-bottom		:		15px;
+	margin-top			:		15px;
+	color				:		#663300;
+}
+
+#textfield span.right{
+	float			:		right;
+	border			:		2px outset #663300;
+	margin			:		10px 10px 10px 10px;	
+	
+}
+
+#textfield span.left{
+	float			:		left;
+	border			:		2px outset #000000;
+	margin			:		10px 10px 10px 10px;
+	
+}
+
+#blocks div.block{
+	width				:		310px;
+	height				:		auto;
+	min-height			:		270px;
+	margin-top			:		15px;
+	margin-left			:		16px;
+	border				:		2px solid #cc9933;
+	background			:		#ffcc66;
+	background-image	:		url(../images/block_bg.png);
+	background-repeat	:		repeat-x;
+	overflow			:		auto;
+}
+
+#blocks	div.title{
+	width				:		300px;
+	height				:		25px;
+	margin-top			:		5px;
+	margin-left			:		5px;
+	float				:		left;
+	background-image	:		url(../images/block_title_bg.png);
+	background-repeat	:		no-repeat;
+	text-align			:		left;
+	text-indent			:		15px;	
+	line-height			:		25px;
+	font-weight			:		bold;
+	color				:		#ffcc66;
+}
+
+#blocks div.content{
+	width				:		300px;
+	height				:		auto;
+	float				:		left;
+	text-align			:		left;
+	
+}
+
+#blocks div.social{
+	width				:		300px;
+	height				:		auto;
+	margin-top			:		5px;
+	margin-left			:		17px;
+	float				:		left;
+	text-align			:		left;
+}
+
+#blocks a.nrtitle{
+	color				:		#663300;	
+	text-decoration		:		none;
+	font-weight			:		bold;
+	border				:		none;
+}
+
+#blocks a.nrtitle:hover{
+	color				:		#663300;	
+	text-decoration		:		underline;
+	font-weight			:		bold;
+	border				:		none;
+}
+
+
+#blocks a.toptitle{
+	color				:		#ffcc66;	
+	text-decoration		:		none;
+	border				:		none;
+}
+
+#blocks a.toptitle:hover{
+	color				:		#ffcc66;
+	text-decoration		:		underline;
+	border				:		none;
+}
+
+#blocks img{
+	border				:		none;
+	margin-left			:		10px;
+}
+
+#blocks li{
+	list-style			:		none;	
+	color				:		#663300;
+	padding				:		0 0 0 0;
+}
+
+#blocks ul{
+	list-style			:		none;	
+	color				:		#663300;
+	padding				:		0 0 0 0;
+	margin-left			:		10px;
+	margin-right		:		5px;
+	*margin-top			:		10px; /* IE hack */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

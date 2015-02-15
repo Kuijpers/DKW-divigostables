@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+#horses div.content{
+	width			:	96%;
+	height			:	auto;
+	margin-left		:	2%;
+	margin-top		:	15px;
+	text-align		:	left;
+	color			:	#333333;
+}
+
+#horses .error{
+	color			:	Red;
+}

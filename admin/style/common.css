@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	text-align			:		center;
+	height				:		100%;
+	margin				:		0px;
+	padding				:		0px;
+	background-image	:	url(../images/bg_textfield.gif);
+	background-repeat	:	repeat-x;
+}
+
+div.container{
+	width				:		100%;
+	margin				:		0px auto;
+	padding				:		0px;
+	/*border			:		1px solid red;*/
+	float				:		none;
+	overflow			:		auto;
+}
+
+
+
+div.topmenu{
+	width				:		100%;
+	height				:		35px;
+	margin				:		0 0 0 0;
+	background-color	:		#999999;
+	float				:		left;
+}
+
+div.sidemenu{
+	width				:		18%;
+	height				:		auto;
+	min-height			:		450px;
+	margin				:		0 0 0 0;
+	float				:		left;
+	border-right		:		#f08080 1px solid;
+	color				:		#333333;
+}
+
+
+div.center_body{
+	width				:		80%;
+	height				:		auto;
+	min-height			:		450px;
+	margin				:		0 0 0 0;
+	float				:		left;
+}
+
+div.footer{
+	width				:		100%;
+	height				:		40px;
+	margin				:		0 0 0 0;
+	float				:		left;
+	border-top			:		#f08080 1px solid;
+	color				:		#333333;
+}

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#horses div.block{
+	width				:		570px;
+	height				:		auto;
+	min-height			:		225px;
+	margin-top			:		15px;
+	border				:		2px solid #cc9933;
+	background			:		#ffcc66;
+	background-image	:		url(../images/block_bg.png);
+	background-repeat	:		repeat-x;
+	overflow			:		auto;
+}
+
+#horses div.split_left{
+	width				:		285px;
+	height				:		auto;
+	float				:		left;
+}
+
+#horses div.split_right{
+	width				:		285px;
+	height				:		auto;
+	float				:		right;
+}
+
+#horses img{
+	margin-left			:		5px;
+	margin-top			:		5px;
+	border				:		1px solid #663300;
+}
+
+#horses a{
+	color				:		#663300;
+}
+
+#horses a:hover{
+	color				:		#663300;
+	font-weight			:		bold;
+}

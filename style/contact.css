@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contact div.block{
+	width				:		570px;
+	height				:		auto;
+	min-height			:		270px;
+	margin-top			:		15px;
+	border				:		2px solid #cc9933;
+	background			:		#ffcc66;
+	background-image	:		url(../images/block_bg.png);
+	background-repeat	:		repeat-x;
+	overflow			:		auto;
+}
+
+#contact input.field{
+	border				:		3px double #663300;
+	background-color	:		#ffffcc;
+}
+
+#contact input.errorinfo{
+	border				:		3px double #663300;
+	background-color	:		#ffcccc;
+}
+
+#contact input.correct{
+	border				:		3px double #663300;
+	background-color	:		#ccffcc;
+}
+
+#contact input.button{
+	height				:		24px;
+	background-image	:		url(../images/menu_bg_hover.png);
+	background-repeat	:		no-repeat;
+	border				:		none;
+	font-weight			:		bold;
+	color				:		#ffcc66;
+	background-color	:		#ffcc66;
+	*text-align			:		left; /* IE hack */
+	*padding-left		:		10px; /* IE hack */
+}
+
+#contact input.button:hover{
+	height				:		24px;
+	background-image	:		url(../images/menu_bg.png);
+	background-repeat	:		no-repeat;
+	border				:		none;
+	font-weight			:		bold;
+	color				:		#ffcc66;
+}
+
+#contact textarea{
+	border				:		3px double #663300;
+	background-color	:		#ffffcc;
+	
+}
+
+#contact textarea.correct{
+	border				:		3px double #663300;
+	background-color	:		#ccffcc;
+	
+}
+
+#contact textarea.errorinfo{
+	border				:		3px double #663300;
+	background-color	:		#ffcccc;
+	
+}
+
+#contact table{
+	margin-left			:		30px;
+	margin-top			:		15px;
+	margin-bottom		:		15px;
+}
+
+#contact .error{
+	color				:	red;
+}
+
+#contact select.field{
+	border				:		3px double #663300;
+	background-color	:		#ffffcc;
+	color				:		#663300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

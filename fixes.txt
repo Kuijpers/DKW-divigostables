@@ -1,0 +1,12 @@
+
++++++++++
+
+Fixes
+
++++++++++
+
+-	Error pagina contact form zit een fout bij het terug laten komen van het subject.
+
+-	Toevoegen $date $time $ip aan de te verzenden formulieren
+
+-	Toevoegen read aan email DB en in sql query (moet 1 ingevuld worden)
